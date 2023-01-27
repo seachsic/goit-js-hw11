@@ -3,7 +3,6 @@ import axios from 'axios';
 import { fetchImages } from './js/fetchImages';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
-// 11497081-cc65ac3ee2055db377a22cee7  KEY
 const btnSearch = document.querySelector('.search-form-button');
 const input = document.querySelector('.search-form-input');
 const gallery = document.querySelector('.gallery');
