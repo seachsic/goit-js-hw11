@@ -4,14 +4,9 @@ export const fetchImages = async (inputValue, pageNr) => {
   )
     .then(async response => {
       if (!response.ok) {
-        if (response.status === 404) {
-          return [];
-        }
         throw new Error(response.status);
       }
       return await response.json();
     })
-    .catch(error => {
-      console.error(error);
-    });
+ 
 };
