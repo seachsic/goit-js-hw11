@@ -40,14 +40,7 @@ function onSearchBtn(evt) {
       );
       gallerySimpleLightbox.refresh();
     }
-    // }  else {
-    //   renderImageList(foundData.hits);
-    //   Notiflix.Notify.success(
-    //     `Hooray! We found ${foundData.totalHits} images.`
-    //   );
-    //   btnLoadMore.style.display = 'block';
-    //   gallerySimpleLightbox.refresh();
-    // }
+
   });
 }
 btnLoadMore.addEventListener('click', () => {
